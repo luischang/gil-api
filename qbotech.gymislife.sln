@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{273D3638-6EFE-46BB-830F-82E67A315DD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{7C52F04C-C033-4AEA-9A20-60A2E7AEC5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{423EBC12-30B7-4921-BC5A-04B84AF09121}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B685A798-E75B-412B-897F-128AB0ACE74C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{2A45F463-CD01-4902-B8BF-428315D6E2C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{392742C0-31EE-48E1-85D6-46FEB6A771C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qbotech.GymIsLife.API", "qbotech.gymislife.api\Qbotech.GymIsLife.API\Qbotech.GymIsLife.API.csproj", "{294BAEF4-2415-4E87-B466-9D56D89B1C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qbotech.GymIsLife.Infrastructure.MySqlDatabase", "qbotech.gymislife.infrastructure.mysqldatabase\Qbotech.GymIsLife.Infrastructure.MySqlDatabase\Qbotech.GymIsLife.Infrastructure.MySqlDatabase.csproj", "{B167DCF8-D0D2-4F00-92CD-144625ED3D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qbotech.GymIsLife.Core.Domain", "qbotech.gymislife.core.domain\Qbotech.GymIsLife.Core.Domain\Qbotech.GymIsLife.Core.Domain.csproj", "{7F2ED7D2-DD6A-4E31-A780-58C211C81256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{294BAEF4-2415-4E87-B466-9D56D89B1C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294BAEF4-2415-4E87-B466-9D56D89B1C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294BAEF4-2415-4E87-B466-9D56D89B1C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294BAEF4-2415-4E87-B466-9D56D89B1C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B167DCF8-D0D2-4F00-92CD-144625ED3D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B167DCF8-D0D2-4F00-92CD-144625ED3D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B167DCF8-D0D2-4F00-92CD-144625ED3D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B167DCF8-D0D2-4F00-92CD-144625ED3D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F2ED7D2-DD6A-4E31-A780-58C211C81256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2ED7D2-DD6A-4E31-A780-58C211C81256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2ED7D2-DD6A-4E31-A780-58C211C81256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F2ED7D2-DD6A-4E31-A780-58C211C81256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C52F04C-C033-4AEA-9A20-60A2E7AEC5B2} = {273D3638-6EFE-46BB-830F-82E67A315DD5}
+		{423EBC12-30B7-4921-BC5A-04B84AF09121} = {273D3638-6EFE-46BB-830F-82E67A315DD5}
+		{B685A798-E75B-412B-897F-128AB0ACE74C} = {273D3638-6EFE-46BB-830F-82E67A315DD5}
+		{2A45F463-CD01-4902-B8BF-428315D6E2C3} = {273D3638-6EFE-46BB-830F-82E67A315DD5}
+		{392742C0-31EE-48E1-85D6-46FEB6A771C1} = {273D3638-6EFE-46BB-830F-82E67A315DD5}
+		{294BAEF4-2415-4E87-B466-9D56D89B1C47} = {392742C0-31EE-48E1-85D6-46FEB6A771C1}
+		{B167DCF8-D0D2-4F00-92CD-144625ED3D2F} = {B685A798-E75B-412B-897F-128AB0ACE74C}
+		{7F2ED7D2-DD6A-4E31-A780-58C211C81256} = {423EBC12-30B7-4921-BC5A-04B84AF09121}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5454642-CE56-472C-AC68-8D39465697B9}
+	EndGlobalSection
+EndGlobal
